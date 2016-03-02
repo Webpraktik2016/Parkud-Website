@@ -10,6 +10,11 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: "Damage Inc";
+    src: url(fonts/Damage-Inc.tff);
+}
+
 body,
 h1,
 h2,
@@ -178,23 +183,43 @@ footer {
     background-size: cover;
 }
 
-.footercontainer {
-    position: absolute;
-    padding-top: 20px;
-    margin-top: 30px;
-    color: #ffae00;
-    width: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+footer h4 {
+    font-family: "Damage Inc";
+    font-weight: 100;
 }
 
-#links {
-    height: 100%;
-    width: 33%;
-    float: left;
-    text-align: center;
-    display: inline-block;
-}
+    .footercontainer {
+        position: absolute;
+        margin-top: 10px;
+        color: #ffae00;
+        width: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+        #Adresse {
+            height: 100%;
+            width: 33%;
+            float: left;
+            text-align: center;
+            display: inline-block;
+        }
+        
+            #Kontakt {
+                height: 100%;
+                width: 33%;
+                float: left;
+                text-align: center;
+                display: inline-block;
+            }
+            
+                #Facebook {
+                    height: 100%;
+                    width: 33%;
+                    float: left;
+                    text-align: center;
+                    display: inline-block;
+                }
 
 p.copyright {
     margin: 15px 0 0;
