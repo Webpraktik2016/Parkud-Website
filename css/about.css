@@ -6,3 +6,9 @@
     background: url(../img/about/vaerksted.jpg) no-repeat center center;
     background-size: cover;
 }
+
+.dam-heading    {
+    font-family: "Damage Inc";
+    src: url(fonts/Damage-Inc.tff)
+    font-weight: 700;
+}
