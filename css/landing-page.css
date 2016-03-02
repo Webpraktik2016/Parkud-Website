@@ -98,9 +98,18 @@ h6 {
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 160px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background: url(../img/modtageraf.png) no-repeat center center;
+    background-size: cover;
+}
+
+.modtager {
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 4em;
+    color: #f8f8f8;
 }
 
 .section-heading {
@@ -161,8 +170,30 @@ h6 {
 }
 
 footer {
+    border-top: 3px solid #ffae00;
     padding: 50px 0;
+    height: 200px;
     background-color: #f8f8f8;
+    background: url(../img/footertexture.png) no-repeat center center;
+    background-size: cover;
+}
+
+.footercontainer {
+    position: absolute;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: #ffae00;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#links {
+    height: 100%;
+    width: 33%;
+    float: left;
+    text-align: center;
+    display: inline-block;
 }
 
 p.copyright {
