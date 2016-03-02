@@ -170,8 +170,30 @@ h6 {
 }
 
 footer {
+    border-top: 3px solid #ffae00;
     padding: 50px 0;
+    height: 200px;
     background-color: #f8f8f8;
+    background: url(../img/footertexture.png) no-repeat center center;
+    background-size: cover;
+}
+
+.footercontainer {
+    position: absolute;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: #ffae00;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#links {
+    height: 100%;
+    width: 33%;
+    float: left;
+    text-align: center;
+    display: inline-block;
 }
 
 p.copyright {
