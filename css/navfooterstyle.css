@@ -83,6 +83,56 @@
     border-left-color: #7e7e7e;
 }
 
+footer {
+    border-top: 3px solid #ffae00;
+    padding: 50px 0;
+    height: 200px;
+    background-color: #f8f8f8;
+    background: url(../img/footertexture.png) no-repeat center center;
+    background-size: cover;
+}
+
+footer h4 {
+    font-family: "Damage Inc";
+    font-weight: 100;
+    font-size: 1.5em;
+}
+
+    .footercontainer {
+        position: absolute;
+        margin-top: 10px;
+        color: #ffae00;
+        width: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+        
+            #Kontakt {
+                height: 100%;
+                width: 50%;
+                float: left;
+                text-align: center;
+                display: inline-block;  
+               
+            }
+            
+            #Kontakt ul{
+                padding-left: 0px;
+                padding-top: 10px;
+            }
+            
+            #Kontakt ul li {
+               list-style-type: none; 
+               
+            }
+                #Facebook {
+                    height: 100%;
+                    width: 50%;
+                    float: left;
+                    text-align: center;
+                    display: inline-block;
+                }
+
 
 @media (max-width: 1000px) {
     .navbar-collapse .nav > .divider-vertical1{
