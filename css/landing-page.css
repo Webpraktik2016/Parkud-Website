@@ -40,9 +40,16 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/091.jpg) no-repeat center center;
+    background: url(../img/intro.png) no-repeat center center;
     background-size: cover;
 }
+
+    @media (max-width: 1000px) {
+        .intro-header {
+            background: url(../img/intromobil.jpg) no-repeat center center;
+            background-size: cover;
+        }
+    }
 
 .intro-message {
     position: relative;
@@ -186,6 +193,7 @@ footer {
 footer h4 {
     font-family: "Damage Inc";
     font-weight: 100;
+    font-size: 1.5em;
 }
 
     .footercontainer {
@@ -196,26 +204,28 @@ footer h4 {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-        #Adresse {
-            height: 100%;
-            width: 33%;
-            float: left;
-            text-align: center;
-            display: inline-block;
-        }
         
             #Kontakt {
                 height: 100%;
-                width: 33%;
+                width: 50%;
                 float: left;
                 text-align: center;
-                display: inline-block;
+                display: inline-block;  
+               
             }
             
+            #Kontakt ul{
+                padding-left: 0px;
+                padding-top: 10px;
+            }
+            
+            #Kontakt ul li {
+               list-style-type: none; 
+               
+            }
                 #Facebook {
                     height: 100%;
-                    width: 33%;
+                    width: 50%;
                     float: left;
                     text-align: center;
                     display: inline-block;
