@@ -88,10 +88,11 @@
             
             <div class="row">
                 
-                <div class="col-lg-12">                
+                <div class="col-lg-6 col-lg-offset-3">                
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading dam-heading">Kontakt Parkud</h2>
+                    <br>
 
                 </div>
             </div>
@@ -99,36 +100,56 @@
             <!--Start Contact form -->
             <div class="row">
                 <form class="form-horizontal" name="enq" method="post" action="email/" onsubmit="return validation();">
-                    <fieldset>         
+                    <fieldset>
                          <div class="form-group">                
-                            <div class="col-lg-6">
-                                <input type="text" name="name" id="name" value=""  class="form-control" placeholder="Navn" />
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <p>Jeg henvender mig som:</p>  
+                                <select class="form-control c-select">
+                                    <option value="Arkitekt">Arkitekt</option>
+                                    <option value="Boligforening">Boligforening</option>
+                                    <option value="Kommune">Kommune</option>
+                                    <option value="Sports- og fritidsklub">Sports- og fritidsklub</option>
+                                    <option value="Privatperson">Privatperson</option>
+                                    <option value="Skole/instituion">Skole/instituion</option>
+                                    <option value="Andet">Andet</option>
+                                </select>
                             </div>          
                          </div>
                         
                          <div class="form-group">                
-                            <div class="col-lg-6">
-                                <input type="text" name="phone" id="phone" value=""  class="form-control" placeholder="Telefonnummer" />
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <p>Dit navn:</p>  
+                                <input type="text" name="name" id="name" value=""  class="form-control" />
+                            </div>          
+                         </div>
+                            
+                         <div class="form-group">                
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <p>Dit telefonnummer:</p> 
+                                <input type="text" name="phone" id="phone" value=""  class="form-control" />
                             </div>          
                          </div>
                          
                          <div class="form-group">   
-                            <div class="col-lg-6">
-                                <input type="text" name="email" id="email" value="" class="form-control" placeholder="E-mail adresse" />
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <p>Din e-mail adresse:</p> 
+                                <input type="text" name="email" id="email" value="" class="form-control" />
                             </div>    
                          </div>
                                
                          <div class="form-group">         
-                            <div class="col-lg-8">            
-                                <textarea rows="11" name="message" id="message" class="form-control" placeholder="Skriv din besked her"></textarea>
+                            <div class="col-lg-8 col-lg-offset-3">
+                                <p>Skriv besked:</p> 
+                                <textarea rows="11" name="message" id="message" class="form-control" ></textarea>
                             </div>
                          </div>
                          
                          <div class="form-group">   
-                            <div class="col-lg-8">
+                            <div class="col-lg-8 col-lg-offset-3">
                                 <input type="submit" value="Send besked" name="submit" id="submitButton" class="btn btn-primary btn-lg" title="Send" />
                             </div>	
                          </div>
+                        
                     </fieldset>
                 
                 </form>  		
