@@ -1,6 +1,6 @@
 .vaerksted-img {
     padding-top: 340px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/about/vaerksted.jpg) no-repeat center center;
@@ -10,4 +10,8 @@
 .dam-heading    {
     font-family: "Damage Inc";
     src: url(fonts/Damage-Inc.tff);
+}
+
+.tobias {
+    text-align: right;
 }
