@@ -53,14 +53,17 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 40%;  
+    text-align: left;
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 4em;
+    color: #ffae00;
+    font-family: "Damage Inc";
+    font-weight: 100;
 }
 
 .intro-divider {
@@ -69,32 +72,10 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h2 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-@media(max-width:1000px) {
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
+    font-size: 2em;
+    color: #ffae00;  
 }
 
 .network-name {
@@ -110,7 +91,7 @@ h6 {
 }
 
 .content-section-b {
-    padding: 160px 0;
+    /* padding: 160px 0; */
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
     background: url(../img/modtageraf.png) no-repeat center center;
@@ -123,6 +104,42 @@ h6 {
     font-size: 4em;
     color: #f8f8f8;
 }
+
+.spare {
+    height: 100px;
+    width: 110px;
+    margin: 0 auto; 
+}
+
+.sparelogo {
+    height: 100px;
+    width: 110px;
+    text-align: center; 
+}
+
+.nord {
+    height: 100px;
+    width: 480px; 
+    margin: 0 auto;
+}
+
+.nordlogo {
+    height: 100px;
+    width: 110px;
+    
+}
+
+.geo {
+    height: 100px;
+    width: 50%; 
+    float: right;
+}
+
+.geologo {
+    height: 100px;
+    width: 110px; 
+}
+
 
 .section-heading {
     margin-bottom: 30px;
@@ -179,57 +196,6 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-}
-
-footer {
-    border-top: 3px solid #ffae00;
-    padding: 50px 0;
-    height: 200px;
-    background-color: #f8f8f8;
-    background: url(../img/footertexture.png) no-repeat center center;
-    background-size: cover;
-}
-
-footer h4 {
-    font-family: "Damage Inc";
-    font-weight: 100;
-    font-size: 1.5em;
-}
-
-    .footercontainer {
-        position: absolute;
-        margin-top: 10px;
-        color: #ffae00;
-        width: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-        
-            #Kontakt {
-                height: 100%;
-                width: 50%;
-                float: left;
-                text-align: center;
-                display: inline-block;  
-               
-            }
-            
-            #Kontakt ul{
-                padding-left: 0px;
-                padding-top: 10px;
-            }
-            
-            #Kontakt ul li {
-               list-style-type: none; 
-               
-            }
-                #Facebook {
-                    height: 100%;
-                    width: 50%;
-                    float: left;
-                    text-align: center;
-                    display: inline-block;
-                }
 
 p.copyright {
     margin: 15px 0 0;

@@ -86,6 +86,7 @@
 footer {
     border-top: 3px solid #ffae00;
     padding: 50px 0;
+    padding-top: 20px;
     height: 200px;
     background-color: #f8f8f8;
     background: url(../img/footertexture.png) no-repeat center center;
@@ -96,24 +97,21 @@ footer h4 {
     font-family: "Damage Inc";
     font-weight: 100;
     font-size: 1.5em;
+    letter-spacing: 1px;
 }
 
     .footercontainer {
-        position: absolute;
-        margin-top: 10px;
         color: #ffae00;
         width: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        height: 100%;
+        margin: 0 auto;
     }
         
             #Kontakt {
                 height: 100%;
                 width: 50%;
                 float: left;
-                text-align: center;
-                display: inline-block;  
-               
+                text-align: center;    
             }
             
             #Kontakt ul{
@@ -128,9 +126,8 @@ footer h4 {
                 #Facebook {
                     height: 100%;
                     width: 50%;
-                    float: left;
+                    float: right;
                     text-align: center;
-                    display: inline-block;
                 }
 
 
@@ -162,5 +159,24 @@ footer h4 {
     }
 }
 
+@media (max-width: 735px) {
+    #Facebook{
+        float: none;
+        padding-top: 10px;
+        margin: 0 auto;
+    }
+}
 
+@media (max-width: 735px) {
+    #Kontakt {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 735px) {
+    footer{
+        height: auto;
+    }
+}
 
